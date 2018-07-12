@@ -1,0 +1,114 @@
+
+// Styling for the masthead
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('/assets/img/home/imagem-principal-overlay.jpg');
+  background-position: center center;
+  @include background-cover;
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 85vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+
+header.QuemSomos {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('/assets/img/Quem-Somos/Imagens/imagem-principal-overlay.jpg');
+  background-position: center center;
+  @include background-cover;
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 80vh;
+   
+    padding-top: 0;
+    padding-bottom: 0;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+header.SejaUmParceiro {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url('/assets/img/Parceiros/Imagens/imagem-principal-overlay.jpg');
+  background-position: center center;
+  @include background-cover;
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    p {
+      font-size: 1.15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    height: 80vh;
+    
+    padding-top: 0;
+    padding-bottom: 0;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+

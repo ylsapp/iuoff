@@ -1,0 +1,32 @@
+.form-iuoff  input, .form-iuoff select, .form-iuoff textarea {
+  border: 2px solid #ebebeb;
+  color: #aaa;
+  border-radius: 26px;
+  display: inline-flex;
+  width: 100%;
+  padding: 8px 12px;
+}
+
+.form-iuoff label {
+  color: #317ba1;
+  font-weight: 700;
+}
+
+.form-iuoff  button {
+  border-radius: 26px;
+  width:80%;
+  margin: auto;
+}
+
+.from-group-2-itens{
+  width: 48%; 
+  display: inline-block;
+  margin-left: 1%;
+}
+
+
+.form-iuoff .form-title, 
+.form-iuoff .title {
+  padding:15px;
+  background: #ebebeb;
+}

@@ -1,0 +1,36 @@
+.card-deck {
+  margin-bottom: 30px;
+}
+.card {
+  box-shadow: 2px 4px 8px 0px #717171;
+  margin: 15px 0px;  
+}
+.card-title{
+    color: #317ba1;
+    border-bottom: 2px solid #ebebeb;
+}
+.card-title .sub-title {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.card-body {
+  font-size: 14px;
+}
+.card-body p {
+  display: inline-block;
+}
+
+
+.card-footer{
+  background: #fff;
+  text-align: center;
+  border:none;
+}
+.card-footer button {
+  font-size: 12px;
+  margin-top: 5px;
+  border-color: #ebebeb;
+}

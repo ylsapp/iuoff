@@ -1,0 +1,129 @@
+
+Menu
+
+AS VANTAGENS - PACOTES - QUEM SOMOS - SEJA UM PARCEIRO - ATENDIMENTO - CASTRE-SE GRÁTIS - ACESSAR - COR #7F7F7F
+
+
+Textos Slider
+
+	Seu novo jeito de organizar viagens! - COR #FFF
+	Peça sua viagem e só se preocupe com fazer as malas! - COR #FFF 
+
+
+	Para onde você quer viajar?  - COR #FFF 
+		Ex: Belim, Paris, Fortaleza, Dublin  - COR #A3A3A3
+
+	Quanto pretende pagar? - COR #FFF 
+
+	O valor ao lado é: - COR #FFF 
+
+		Para todos - COR #7F7F7F
+		Por pessoa -COR #7F7F7F
+
+
+Textos busca pacote
+
+	Preencha os campos e veja os melhores pacotes... - COR #858585
+
+		Cidade de origem - COR #2857A1
+			Insira uma cidade - COR #858585
+
+		Período disponível para viaja
+			De / Até - COR #858585
+
+		Quero ficar - COR #2857A1
+			Ex: De 05 a 10 dias - COR #858585	
+			De / Dias - #515151
+
+		Quartos - COR #2857A1
+			1 Quarto - COR #858585	
+
+		Visitantes - COR #2857A1
+			1 Pessoa - COR #858585
+
+		Incluir: - COR #2757A0
+
+			Hospedagem, Passagens, Traslados, Passeios, Aluguel de carro,Ingressos - COR SEM SELECIONAR #999999 - COR SELECIONADO #FFF
+			
+		
+		
+
+
+
+
+
+
+Textos pacotes
+	
+	Os melhores pacotes - COR  #616161
+		Ver todos os pacotes -  COR #006DD9
+
+
+Textos vantajens
+
+	Porque viajar com iuoff? - COR #0E6491
+
+		Economize! - COR #515151
+			Você diz quanto quer pagar e ainda ganha tempo no planejamento e aquisição da sua viagem. - COR #515151
+
+		Garanta a melhor proposta! - COR #515151
+			Profissionais especializados em turismo irão te oferecer as melhores propostas para a sua viagem.- COR #515151
+
+		Fique seguro! - COR #515151
+			Tenha suporte profissional em todas as fases da sua viagem, além de formas de pagamento diferenciadas - COR #515151
+
+		SOLICITAR VIAGEM - COR #0E6491 / Borda: #0E6491
+
+
+Textos seja um parceiro
+
+	Seja um parceiro - COR #6EBC51
+
+		Você que possui uma agência de viagens, é um profissional do setor de turismo, ou gostaria de se profissionalizar nessa área, cadastre-se iremos potencializar a captação de clientes,
+		ampliar sua área de alcance e alavancar sua rentabilidade.  COR #515151
+
+		SAIBA MAIS-  COR ##6EBC511 / Borda: #6EBC51
+
+
+Textos o que tem de bom
+
+		Encontre O Que Tem de Bom no melhor portal de Turismo do Brasil - COR #515151
+			
+			Opções de hospedagem, alimentação, atrações, locais para compras, prestadores de serviços, eventos e muito mais. - COR #515151
+		
+			QUERO CONHECER - COR #FF5C26 / Borda: #FF5C26
+
+Textos quem somos
+
+	Somos uma Startup genuinamente brasileira criada com o objetivo de democratizar o turismo em nosso país e no mundo! -COR #515151
+
+	Saiba mais -COR #006DD9
+
+
+Textos atendimento
+
+	Atendimento ao cliente - COR #2857A1
+
+		contato@iuoff.com - COR #515151
+		(31) 986901933 - COR #515151
+		Linguagem: - COR #515151
+
+Textos Rodape
+
+	IUOFF - Copyright 2017-Todos os direitos reservados - COR #616161 BOLD
+	Rua Cosme Viana, 168 - Afogados - Recife - PE. CEP: 50820-580 - CNPJ: 24.515.141/0001-05 - COR #515151
+
+	POLÍTICAS DE PRIVACIDADE
+		- Verificar texto- ao clicar tem que abrir uma modal com o texto completo
+
+	POLÍTICAS DE PRIVACIDADE
+		- Verificar texto- ao clicar tem que abrir uma modal com o texto completo
+
+	TERMOS E CONDIÇÕES
+		- Verificar texto- ao clicar tem que abrir uma modal com o texto completo
+
+		
+		
+
+
+	

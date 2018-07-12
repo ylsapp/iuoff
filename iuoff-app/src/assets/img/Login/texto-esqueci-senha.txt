@@ -1,0 +1,13 @@
+Recuperação de senha
+
+Para acessar novamente sua conta preencha os campos abaixo.
+
+Digite abaixo o seu e-mail cadastrado
+
+E-mail
+
+Nova senha - Confirme a senha
+
+* A senha deve conter no mínimo 6 dígitos sendo 1 número, 1 letra maíuscula, 1 letra minúscula e 1 símbolo.
+
+Confirmar

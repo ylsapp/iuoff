@@ -1,0 +1,66 @@
+@import '../template/variables';
+
+.x-toggle-default.x-toggle-btn {
+  background: $secondary !important;
+  border-radius: 26px !important;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  border: 2px solid $secondary;
+}
+
+.x-toggle-default.x-toggle-btn:after {
+  border-radius: 26px !important;
+  background: $secondary;
+  -webkit-transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.x-toggle-default.x-toggle-btn:active {
+  box-shadow: inset 0 0 0 2em $secondary;
+  border-radius: 26px !important;
+  
+}
+
+.x-toggle-default.x-toggle-btn:active:after {
+  padding-right: .8em;
+  border-radius: 26px !important;
+  
+}
+
+.x-toggle:checked + .x-toggle-default.x-toggle-btn {
+  background: $secondary;
+  border-radius: 26px !important;
+  
+}
+
+.x-toggle:checked + .x-toggle-default.x-toggle-btn:active {
+  box-shadow: none;
+  border-radius: 26px !important;
+  
+}
+
+.x-toggle:checked + .x-toggle-default.x-toggle-btn:active:after {
+  margin-left: -.8em;
+}
+
+.x-toggle-default.small {
+  width: 3em;
+  height: 1.6em;
+}
+
+.x-toggle-default.medium {
+  width: 4em;
+  height: 2.1em;
+  padding: 3px;
+}
+
+.x-toggle-default.large {
+  width: 4.7em;
+  height: 30px;
+  padding: 4px;
+}
+.x-toggle-component label.on-label{
+  padding-left: 1.5em;
+}

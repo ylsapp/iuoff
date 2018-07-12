@@ -1,0 +1,135 @@
+@import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
+@font-face {
+  font-family: 'icomoon';
+  // src:  url('../../fonts/icomoon.eot?en0hjn');
+  src:  url('../../fonts/icomoon.eot?en0hjn#iefix') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?en0hjn') format('truetype'),
+    url('../../fonts/icomoon.woff?en0hjn') format('woff'),
+    url('../../fonts/icomoon.svg?en0hjn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-man:before {
+  content: "\e91c";
+}
+.icon-briefcase:before {
+  content: "\e91d";
+}
+.icon-piggybank:before {
+  content: "\e91e";
+}
+.icon-handshake:before {
+  content: "\e91f";
+}
+.icon-credit-card:before {
+  content: "\e920";
+}
+.icon-paper-plane:before {
+  content: "\e921";
+}
+.icon-file:before {
+  content: "\e922";
+}
+.icon-add-user:before {
+  content: "\e923";
+}
+.icon-travel-linha:before {
+  content: "\e900";
+}
+.icon-travel:before {
+  content: "\e901";
+}
+.icon-group-of-men:before {
+  content: "\e902";
+}
+.icon-like:before {
+  content: "\e903";
+}
+.icon-family-of-three:before {
+  content: "\e904";
+}
+.icon-money:before {
+  content: "\e905";
+}
+.icon-in-love:before {
+  content: "\e906";
+}
+.icon-air-transport:before {
+  content: "\e907";
+}
+.icon-bus:before {
+  content: "\e908";
+}
+.icon-calendar:before {
+  content: "\e909";
+}
+.icon-checklist:before {
+  content: "\e90a";
+}
+.icon-coin:before {
+  content: "\e90b";
+}
+.icon-dinner:before {
+  content: "\e90c";
+}
+.icon-distance:before {
+  content: "\e90d";
+}
+.icon-facebook:before {
+  content: "\e90e";
+}
+.icon-hotel-building:before {
+  content: "\e90f";
+}
+.icon-instagram:before {
+  content: "\e910";
+}
+.icon-locked:before {
+  content: "\e911";
+}
+.icon-mail:before {
+  content: "\e912";
+}
+.icon-man-user:before {
+  content: "\e913";
+}
+.icon-park-tickets-couple:before {
+  content: "\e914";
+}
+.icon-piggy-bank:before {
+  content: "\e915";
+}
+.icon-placeholder:before {
+  content: "\e916";
+}
+.icon-rent-a-car:before {
+  content: "\e917";
+}
+.icon-sleeping-bed-silhouette:before {
+  content: "\e918";
+}
+.icon-sun:before {
+  content: "\e919";
+}
+.icon-user:before {
+  content: "\e91a";
+}
+.icon-whatsapp-logo:before {
+  content: "\e91b";
+}

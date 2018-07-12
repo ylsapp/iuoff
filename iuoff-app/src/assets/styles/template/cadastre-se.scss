@@ -1,0 +1,57 @@
+  .cadastra-se input:not([type='checkbox']) 
+    {
+        border-radius: 10px !important;
+        height: 60px;
+        padding: 5%;
+        border: 2px solid #cac8c8;
+        font-style: italic;
+        font-size: 1.1em;
+        color: #757373;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+
+  .cadastra-se-popup input:not([type='checkbox']) 
+    {
+        border-radius: 10px !important;      
+        padding: 5%;
+        border: 2px solid #cac8c8;
+        font-style: italic;
+        font-size: 1.1em;
+        color: #757373;
+        max-height: 43px;
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+
+$selected-color: #3b5999;
+
+.cadastra-se-popup  .button-group input{
+  display: none;
+}
+
+.cadastra-se-popup  .button-group input:checked + label,
+.cadastra-se-popup  .button-group input:checked + label:active {
+  background-color: $selected-color;
+    color: #fff;
+}
+
+
+.close-register {
+  float: right;
+  border-radius: 50%;
+  background: #3b5999;
+  color: #fff !important;
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 7%; 
+  padding: 0.4em 0.8em;
+  text-decoration: none !important;
+}
+
+.type-selected{
+  background: #ededed !important;
+  box-shadow: 2px 4px 2px #ededed !important;
+}

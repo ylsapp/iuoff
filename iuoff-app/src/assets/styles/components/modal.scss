@@ -1,0 +1,28 @@
+.modal .form-section {        
+  display: none;
+}
+
+.modal  .form-section.current {
+  display: inherit;
+}
+
+.modal .btn-info, .btn-default {
+  margin-top: 10px;
+}
+
+.modal-dialog{
+  min-width: 700px;
+  width: 100%;
+}
+
+
+.modal-header{
+  border: none;
+}
+
+.modal-title{
+  margin-top: -10%;
+  margin-bottom: 5%;
+  font-style: italic;
+  color: gray;
+}

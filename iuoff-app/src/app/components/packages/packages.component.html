@@ -1,0 +1,139 @@
+   <div class="container-fluid no-margin no-padding">
+    <div class="banner">
+      <img src="assets/img/pacotes-banner.jpg" alt="banner pacotes">
+     
+      <div class="container">
+        <div class="banner-caption">
+          PACOTES
+          <div class="banner-caption-small">
+           <small>
+             Encontre aqui os melhores pacotes!
+           </small>
+          </div>
+        </div>
+
+      </div>
+     
+
+    </div>
+  </div>
+
+  <main role="main" class="container page-with-banner">
+    
+    <div class="row">
+      <div class="col-md-4">
+        <!-- filtro -->
+
+        <div class="form-iuoff filtro-principal">
+          <label class="filtro-principal-titulo">
+            Econtre seu pacote
+          </label>
+
+          <label>Origem:</label>
+          <input type="text" placeholder="ex: SP" id="origem" value=origin />
+
+          <label>Destino:</label>
+          <input type="text" placeholder="ex: RE" id="destino" value=destination />
+
+          <div hidden>
+
+            <label>Data ida</label>
+            <input type="date" id="dataIda" disabled>
+
+            <label>Data volta</label>
+            <input type="date" id="dataVolta" disabled>
+          </div>
+
+
+        </div>
+
+
+        <!-- filtros adicionais -->
+
+        <div class="form-iuoff filtro-adicional" hidden>
+          <div class="filtro-adicional-titulo">
+            Filtros adicionais
+          </div>
+          <div class="mt-15"></div>
+
+
+          <label for="">
+            Estilo viagem
+          </label>
+          <div class="estilo-viagem-lista">
+
+            <div class="checkbox">
+              <label for="casal"><input type="checkbox" id="casal"><i class="fa fa-user"></i> Casal</label>
+            </div>
+            <div class="checkbox">
+              <label for="familia"><input type="checkbox" id="familia"><i class="fa fa-users"></i>
+                Família</label>
+            </div>
+            <div class="checkbox">
+              <label for="amigos"><input type="checkbox" id="amigos"><i class="fa fa-people-carry"></i> Amigos</label>
+            </div>
+            <div class="checkbox">
+              <label for="economico"><input type="checkbox" id="economico"><i class="fas fa-money-bill-alt"></i>
+                Econômico</label>
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+      <div class="col-md-8">
+        
+          <div class="row">
+              <div *ngFor="let package of packages" class="col-md-6">                  
+                <div class="card">
+                    <img class="card-img-top" src="http://odisseia.pt/wp-content/themes/html5blank-stable6-4-16/img/imagenotfound.png"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title b-none">
+                          {{ package}}
+                        {{ package.title }}
+
+                        <div class="small text-uppercase">
+                          De: {{package.origin}} | Para: {{package.destination}}
+                        </div>
+                      </h5>
+
+                    </div>
+                    <div class="card-footer">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                          <i class={{package.includeds.firstObject.icon}}></i>
+                          <br> {{package.includeds.firstObject.name}}
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                          <i class={{package.styles.firstObject.icon}}></i>
+                          <br> {{package.styles.firstObject.name}}
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                          <small>
+                            a partir de
+                          </small>
+                          <br>
+                          <span class="text-secondary negrito">
+                            
+                            R$ {{package.initialAmount}}
+                          </span>
+                        </div>
+                      </div>
+
+                    </div>
+                </div>
+              </div>
+            <!-- fim ngFor -->
+            
+          </div>
+
+      </div>
+
+    </div>
+
+  </main><!-- /.container -->
